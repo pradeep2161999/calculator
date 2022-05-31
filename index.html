@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../calculator/index.css" />
+    <script src="../calculator/index.js"></script>
+    <title>Calculator</title>
+  </head>
+  <body class="bt">
+    <h1 style="text-align: center">Calculator</h1>
+    <table style="margin-left: 570px">
+      <tr>
+        <td>
+          <input
+            type="text"
+            class="btn"
+            id="screen"
+            name="screen"
+            style="width: 200px"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input
+            type="button"
+            class="btn"
+            name="1"
+            value="  1  "
+            onclick="updateTextbox(1)"
+            style="width: 22%"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="2"
+            value="  2  "
+            onclick="updateTextbox(2)"
+            style="width: 22%"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="3"
+            value="  3  "
+            onclick="updateTextbox(3)"
+            style="width: 22%"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="*"
+            value="  x  "
+            onclick="updateTextbox('*')"
+            style="width: 22%"
+          />
+          <br />
+          <input
+            type="button"
+            class="btn"
+            name="4"
+            value="  4  "
+            onclick="updateTextbox(4)"
+            style="width: 22%"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="5"
+            value="  5  "
+            onclick="updateTextbox(5)"
+            style="width: 22%"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="6"
+            value="  6  "
+            onclick="updateTextbox(6)"
+            style="width: 22%"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="-"
+            value="  -  "
+            onclick="updateTextbox('-')"
+            style="width: 22%"
+          />
+          <br />
+
+          <input
+            type="button"
+            class="btn"
+            name="7"
+            value="  7  "
+            onclick="updateTextbox(7)"
+            style="width: 22%"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="8"
+            value="  8  "
+            onclick="updateTextbox(8)"
+            style="width: 22%"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="9"
+            value="  9  "
+            onclick="updateTextbox(9)"
+            style="width: 22%"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="+"
+            value="  +  "
+            onclick="updateTextbox('+')"
+            style="width: 22%"
+          />
+          <br />
+
+          <input
+            type="button"
+            class="btn"
+            name="c"
+            value="  c  "
+            onclick="reset();"
+            style="width: 22%"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="0"
+            value="  0  "
+            onclick="updateTextbox(0)"
+            style="width: 22%"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="="
+            value="  =  "
+            onclick="result();"
+            style="width: 22%"
+          />
+          <input
+            type="button"
+            class="btn"
+            name="/"
+            value="  /  "
+            onclick="updateTextbox('/')"
+            style="width: 22%"
+          />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
